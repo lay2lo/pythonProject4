@@ -11,4 +11,3 @@ class SavingsAccount(Account):
         else:
             print("Amount exceeds withdrawal limit")
 savings = SavingsAccount()
-savings.withdraw(1000)
